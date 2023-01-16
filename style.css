@@ -1,0 +1,155 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Anton', sans-serif;
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+ }
+/* ===========HEADER =================== */
+ header {
+    background-image: url('./images/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+ }
+
+ .container {
+    max-width: 1170px;
+    margin: 0 auto;
+ }
+
+ .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+ }
+
+ .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .header-nav  ul{
+    display: flex;
+    margin-left: 69px;
+ }
+
+ .header-nav  ul li {
+    list-style: none;
+    margin-right: 40px;
+ }
+
+ .header-nav  ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    color: #fff;
+ }
+.to-call {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+/* ============HERO ============== */
+.hero {
+    height: calc(100vh - 110px);
+    width: 551px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    color: #fff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.hero h2 {
+    font-size: 30px;
+}
+.hero h1 {
+    font-size: 100px;
+}
+.hero button {
+    width: calc(100% - 65%);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 18px 23px 17px 23px;
+    cursor: pointer;
+
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+/* ================MAIN ================= */
+
+.main-content {
+    margin-top: 113px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 67px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 58px;
+}
+.about-card:first-child {
+    margin-right: 36px;
+}
+.about-card h3 {
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+.about-card p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+/* ========PLACES ============= */
+.places {
+    width: calc(100% - -6px);
+    margin-bottom: 114px;
+}
+.places-img {
+    margin-right: 29px;
+    text-decoration: none;
+}
+.places-img:last-child {
+    margin-right: 0;
+}
+
+/* =========FOOTER ================ */
+.footer {
+    margin-bottom: 80px;
+}
+span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 55px;
+    margin-bottom: 80px;
+}
+span:last-child{
+    margin-right: 0;
+}
